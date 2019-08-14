@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Multibyte_VATFix</name>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <stability>stable</stability>
     <license>GPL</license>
     <channel>community</channel>
@@ -14,9 +14,9 @@ With this extension the ability to change a Customers Usergroup bases on a valid
     <notes>Add configuration to enable or disable the VATfix&#xD;
 Configuration is at customer -&gt; create_account</notes>
     <authors><author><name>Roman Hutterer</name><user>roman204</user><email>info@multibyte.at</email></author></authors>
-    <date>2013-10-06</date>
-    <time>10:54:04</time>
+    <date>2014-02-11</date>
+    <time>09:09:42</time>
     <contents><target name="magecommunity"><dir name="Multibyte"><dir name="VATFix"><dir name="Helper"><file name="Countries.php" hash="3dcb13f1bdeb978d3be3edd875231228"/><file name="Data.php" hash="434cae20d1ca7f28109fd978bf98e05c"/></dir><dir name="etc"><file name="config.xml" hash="be3a4af513e7fc31f526f9638c8fed4e"/><file name="system.xml" hash="8afda4bebf69e9709c9c16470fb2674a"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Multibyte_VATFix.xml" hash="3dd4e35b16777f8edb2c4e2da4034e72"/></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.1.0</min><max>5.4.0</max></php></required></dependencies>
+    <dependencies><required><php><min>5.1.0</min><max>5.5.8</max></php></required></dependencies>
 </package>
