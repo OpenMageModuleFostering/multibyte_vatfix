@@ -1,0 +1,17 @@
+{
+    "name": "OpenMageModuleFostering/Multibyte_VATFix",
+    "type": "magento-module",
+    "license": "GPL",
+    "homepage": "",
+    "description": "The VatFix extension for magento fixes the broken  VAT check in Magento for European Companies.
+",
+    "authors": [
+    {
+        "name": "Roman Hutterer",
+        "email": "info@multibyte.at"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
