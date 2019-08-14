@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Multibyte_VATFix</name>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <stability>stable</stability>
     <license>GPL</license>
     <channel>community</channel>
@@ -11,11 +11,11 @@
     <description>The VatFix extension for magento fixes the broken  VAT check in Magento for European Companies which want to use the built-in feature of Customergroups based on valid VAT-number in Magento.&#xD;
 &#xD;
 With this extension the ability to change a Customers Usergroup bases on a valid VAT number is possible.</description>
-    <notes>nothing </notes>
+    <notes>Added Validation of Countrycode</notes>
     <authors><author><name>Roman Hutterer</name><user>roman204</user><email>info@multibyte.at</email></author></authors>
-    <date>2013-07-13</date>
-    <time>12:45:55</time>
-    <contents><target name="magelocal"><dir name="Multibyte"><dir name="VATFix"><dir name="Helper"><file name="Data.php" hash="519b1b4b89d27601ece5c627e26d0298"/></dir><dir name="etc"><file name="config.xml" hash="51491786debcc981fcc6a88009beb840"/></dir></dir></dir></target></contents>
+    <date>2013-07-25</date>
+    <time>17:57:57</time>
+    <contents><target name="magecommunity"><dir name="Multibyte"><dir name="VATFix"><dir name="Helper"><file name="Countries.php" hash="3dcb13f1bdeb978d3be3edd875231228"/><file name="Data.php" hash="b53b47865a9eb00cb4250364269a0aee"/></dir><dir name="etc"><file name="config.xml" hash="be3a4af513e7fc31f526f9638c8fed4e"/></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>5.4.0</max></php></required></dependencies>
 </package>

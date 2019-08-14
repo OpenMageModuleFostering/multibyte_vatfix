@@ -12,6 +12,9 @@
                     <data>Multibyte_VATFix_Helper_Data</data>
                 </rewrite>
             </customer>
+            <multibyte_vatfix>
+                <class>Multibyte_VATFix_Helper</class>
+            </multibyte_vatfix>
         </helpers>
     </global>
 </config>
